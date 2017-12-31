@@ -1,0 +1,29 @@
+{
+  "name": "nodemailer_app",
+  "version": "1.0.0",
+  "description": "Nodejs application for sending emails",
+  "main": "node app.js",
+  "scripts": {
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishek4kahol/nodemailer_app.git"
+  },
+  "keywords": [
+    "nodemailer"
+  ],
+  "author": "abhishek kahol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishek4kahol/nodemailer_app/issues"
+  },
+  "homepage": "https://github.com/abhishek4kahol/nodemailer_app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.4.1",
+    "nodemon": "^1.14.6"
+  }
+}
